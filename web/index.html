@@ -4,7 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>front and back basic!</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container-form">
+      <form id="saveTransaction">
+        <div class="input-container">
+          <label for="transactionDescription">Description:</label>
+          <input
+            id="transactionDescription"
+            type="text"
+            placeholder="your description here..."
+          />
+        </div>
+        <div class="input-container">
+          <label for="transactionPrice">Price:</label>
+          <input id="transactionPrice" type="text" placeholder="Price..." />
+        </div>
+        <div class="container-buttom">
+          <button>Save transaction</button>
+        </div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
 </html>
